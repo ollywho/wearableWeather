@@ -1,0 +1,209 @@
+#wardrobe-wrap{
+				border:1px solid rgb(45,56,64);
+				height:100%;
+				-moz-box-shadow: 0 0 1px rgba(20,20,20,1);
+				-webkit-box-shadow: 0 0 1px rgba(20,20,20,1);
+				box-shadow: 0 0 1px rgba(20,20,20,1);
+				border-radius:5px;
+				padding:0px;
+			}
+			#wardrobe-section{
+				height:100%;
+			}
+			#wardrobe-left{
+				height:100%;
+				border-radius:5px;
+				border-top-right-radius:0px;
+				border-bottom-right-radius:0px;
+				background-color:rgb(45,56,64);
+				padding:0px;
+				position:relative;
+			}
+			#wardrobe-right{
+				height:100%;
+				border-radius:5px;
+				border-top-left-radius:0px;
+				border-bottom-left-radius:0px;
+				padding:0px;
+				height:100%;
+				overflow-y:scroll;
+			}
+			#wardrobe-right::-webkit-scrollbar {
+				width: 1em;
+			}
+			#wardrobe-right::-webkit-scrollbar-track {
+				-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+			}
+			 
+			#wardrobe-right::-webkit-scrollbar-thumb {
+			  background-color: rgba(0,0,0,.3);
+			  outline: 1px solid slategrey;
+			}
+			.modal-body::-webkit-scrollbar {
+				width: 1em;
+			}
+			.modal-body::-webkit-scrollbar-track {
+				-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+			}
+			 
+			.modal-body::-webkit-scrollbar-thumb {
+			  background-color: rgba(0,0,0,.3);
+			  outline: 1px solid slategrey;
+			}
+			.container{
+				height:85%;
+			}
+			ul{
+				list-style-type:none;
+				padding:0px;
+				text-align:center;
+			}
+			li{
+				cursor:pointer;
+			}
+			.active-wardrobe{
+				color:gray;
+			}
+			.garment{
+				background-color:rgb(45,56,64);
+				height:80px;
+				padding:5px;
+				border:1px solid rgb(90,175,238);
+				margin-top:1px;
+				margin-bottom:4px;
+			}
+			#addGarmentBtn{
+				position:absolute;
+				bottom:5%;
+				left:87%;
+				border-radius:50%;
+				height:45px;
+				width:45px;
+				cursor:pointer;
+				background-color:rgb(90,175,238);
+				text-align:center;
+				line-height:45px;
+				-moz-box-shadow: 0 0 15px black;
+				-webkit-box-shadow: 0 0 15px black;
+				box-shadow: 0 0 15px black;
+				z-index:1;
+			}
+			.garment-txt{
+				line-height:70px;
+			}
+			.garment-img{
+				float:right;
+				margin-top:25px;
+				cursor:pointer;
+			}
+			.modal-content{
+				background-color:rgb(45,56,64);
+			}
+			.btn-default{
+				background-color: rgb(90,175,238);
+				color:white;
+				border:none;
+			}
+			.btn-default:hover{
+				background-color: rgb(90,175,238);
+				color:white;
+			}
+			.modal-body{
+				height:350px;
+				overflow-y:scroll;
+			}
+			.center-align-txt{
+				text-align:center;
+			}
+			.noshow{
+				display:none;
+			}
+			.confirm,.undo{
+				color:rgb(90,175,238);
+				cursor:pointer;
+				display:inline-block;
+			}
+			#color-wrap{
+				position:relative;
+				padding:0px;
+			}
+			#color-dropdown{
+				position:absolute;
+				height:270px;
+				width:100%;
+				background-color:white;
+				padding:0px;
+				z-index:1;
+			}
+			.color-block{
+				height:90px;
+				padding:0px;
+				cursor:pointer;
+			}
+			.color-row{
+				margin:0 !important;
+			}
+			#red{
+				background-color:red;
+			}
+			#blue{
+				background-color:rgb(0,93,255);
+			}
+			#orange{
+				background-color:orange;
+			} 
+			#yellow{
+				background-color:yellow;
+			}
+			#navy{
+				background-color:rgb(0,0,110);
+			}
+			#white{
+				background-color:white;
+			}
+			#brown{
+				background-color:rgb(139,69,19);
+			}
+			#tan{
+				background-color:tan;
+			}
+			#black{
+				background-color:black;
+			}
+			#gray{
+				background-color:gray;
+			}
+			#purple{
+				background-color:purple;
+			}
+			#burgundy{
+				background-color:darkred;
+			}
+			#green{
+				background-color:rgb(85,107,47);
+			}
+			#pink{
+				background-color:pink;
+			}
+			#undo{
+				position:absolute;
+				width:150px;
+				background-color:white;
+				height:45px;
+				z-index:1;
+				left:46%;
+				top:10%;
+				border-radius:5px;
+				text-align:center;
+				background-color:azure;
+				color:black;
+				line-height:45px;
+			}
+			#undo p{
+				display:inline;
+			}
+			#revert{
+				cursor:pointer;
+				color:blue;
+			}
+			

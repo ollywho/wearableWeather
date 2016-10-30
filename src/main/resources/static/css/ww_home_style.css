@@ -1,0 +1,192 @@
+html, body{
+				width:100%;
+				height:100%;
+				margin:0;
+				color:white;
+			}
+			body{
+				background-color:rgb(53,65,74);
+			}
+			.navbar-default{
+				background-color:rgb(45,56,64);
+				color:white;
+				border:none;
+				border-bottom:.5px solid rgba(20,20,20,1);
+				-moz-box-shadow: 0 0 1px rgba(20,20,20,1);
+				-webkit-box-shadow: 0 0 1px rgba(20,20,20,1);
+				box-shadow: 0 0 1px rgba(20,20,20,1);
+			}
+			.navbar-default .navbar-brand{
+				color:white;
+			}
+			.navbar-default .navbar-nav>li>a {
+				color:white;
+			}
+			.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{
+				color:white;
+				background-color: transparent;
+			}
+			.navbar-default .navbar-nav>.active>a:hover{
+				color:white;
+				background-color:transparent;
+			}
+			
+			.navbar-default .navbar-nav>li>a:hover {
+				color:gray;
+			}
+			#logout a,#logout a:hover,#logout a:focus{
+				color:gray;
+			}
+			.active{
+				background: -webkit-linear-gradient(bottom, rgb(90,175,238), rgb(90,175,238) 8%, transparent 0%, transparent 100%);
+			}
+			.nav-item{
+				padding-left:9.5px;
+				padding-right:9.5px;
+			}
+			#nav{
+				padding-right:0px;
+			}
+			.no-padding{
+				padding:0;
+			}
+			ul{
+				list-style-type:none;
+				padding-left:10px;
+			}
+			li{
+				font-size:larger;
+			}
+			#today-temp-div{
+				text-align:center;
+				font-size:85px;
+			}
+			.left-list li{
+				text-align:right;
+			}
+			.right-list li{
+				text-align:left;
+			}
+			#weather-forecast-section{
+				padding-top:75px;
+				padding-left:175px;
+				padding-right:25px;
+			}
+			.weather-tile{
+				width:19%;
+				height:200px;
+				border:1px solid rgb(90,175,238);
+				display:inline-block;
+				border-radius:2px;
+			}
+			.tile-header{
+				background-color:rgb(90,175,238);
+				text-align:center;
+				border-radius-top:2px;
+				padding:5px;
+				font-size:medium;
+			}
+			.tile-body{
+				height:81%;
+				padding:15px 4px 15px 4px;
+				text-align:center;
+			}"img/light-jacket.png"
+			.day-temps{
+				text-align:center;
+				height:60%;
+			}
+			.day-temp-f{
+				font-size:xx-large;
+			}
+			.day-temp-c{
+				font-size:large;
+				color:#E0E0E0;
+			}
+			.day-img-div{
+				height:40%;
+				width:100%;
+				margin-top:20px;
+			}
+			#today-outfit-txt{
+				text-align:center;
+				font-size:20px;
+			}
+			#today-accessory-txt{
+				text-align:left;
+				font-size:20px;
+			}
+			#today-temp-div{
+				margin-left:20px;
+			}
+			.clothing-img{
+				display: block;
+				margin: 0 auto;
+			}
+			#refresh-btn-div{
+				border-radius:10px;
+				background-color:rgb(43, 49, 53);
+				width:130px;
+				margin-left:auto;
+				margin-right:auto;
+				margin-top:20px;
+				padding:3px;
+				cursor:pointer;
+			}
+			.inline-block{
+				display:inline-block;
+			}
+			#suggestion-txt{
+				font-size:12px;
+			}
+			.margin-10{
+				margin-left:10px;
+			}
+			#upcoming-div{
+				font-size:large;
+				padding-bottom:20px;
+			}
+			#city-dropdown{
+				color:white;
+				background-color:rgb(45,56,64);
+			}
+			.popover {
+			  background-color: rgb(45,56,64); /*substitute 'red' with your color of choice*/
+			  border-color: white;
+			  width:120px;
+			}
+			.popover.left>.arrow:after {
+			  border-left-color: rgb(45,56,64);
+			}
+			.popover.left>.arrow {
+				border-left-color:white;
+			}
+			.popover-content {
+			  background-color: rgb(45,56,64);
+			}
+			#bottom-img,#top-img{
+				text-align:center;
+			}
+			.noshow{
+				display:none;
+			}
+			#formality-input{
+				text-align:center;
+				margin-top:25px;
+			}
+			#get-sugg-btn{
+				background-color:rgb(90,175,238);
+				border-radius:3px;
+				border:none;
+				margin-top:15px;
+			}
+			#specific-formality{
+				margin-bottom:20px;
+			}
+			.city-txt{
+				margin:0px !important;
+			}
+			#new-city{
+				color: rgb(90,175,238);
+				cursor: pointer;
+				text-align: center;
+			}

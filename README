@@ -1,0 +1,27 @@
+README
+
+@author: Oliver Hu
+
+TO RUN:
+
+From the root directory, run "mvn package" and then ./run wearableWeather.sqlite3.
+In your web browser, visit "localhost:4567/login." There is a default user in the
+database with username "default" and password "default." The default user already
+has clothing in the database, but you may choose to create a new user if you want.
+
+TO USE:
+
+Simply click "Get Outfit Suggestion" to receive an outfit suggestion based on the
+weather. You may also choose to select a specific formality level or change the 
+location. Click the "My Wardrobe" tab to view your wardrobe. On this page, you can
+choose to add or remove clothing from your wardrobe.
+
+KNOWN BUGS/ERRORS:
+
+Due to time constraints on creating this project, we were unable to create high
+quality images for the clothing items. Instead, we devised a way to programatically
+color an image of a white clothing item.
+
+There is a minor bug: sometimes, the clothing images do not immediately appear.
+Simply click the "my wardrobe" tab again to load the images. Double-clicking
+the tab will guarantee that the images appear.

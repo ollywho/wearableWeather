@@ -1,0 +1,6 @@
+id,name,type,weight,waterproof,color,user
+1,Jeans,bottom,light,no,blue,default
+2,T-shirt,top,light,no,brown,default
+3,Chinos,bottom,light,no,brown,default
+4,Sweater,top,mid,no,grey,default
+5,Dress,both,light,no,red,default

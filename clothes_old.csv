@@ -1,0 +1,6 @@
+id,name,type,tempMin,tempMax,waterproof,color
+1,Jeans,bottom,0,65,no,blue
+2,T-shirt,top,20,100,no,brown
+3,Chinos,bottom,0,50,no,brown
+4,Sweater,top,10,60,no,grey
+5,Dress,both,50,90,no,red

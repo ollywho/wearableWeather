@@ -1,0 +1,22 @@
+input[type="number"] {
+  width: 3em;
+}
+
+body {
+    background-color: #6785e7;
+    color: #414c4c;
+}
+
+textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400;
+    height: 400;
+}
+
+input[type="submit"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

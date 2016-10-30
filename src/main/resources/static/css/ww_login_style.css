@@ -1,0 +1,77 @@
+html, body{
+				width:100%;
+				height:100%;
+				margin:0;
+			}
+			body{
+				background-color:rgb(53,65,74);
+			}
+			.vertical-center {
+			  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+			  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+			  display: flex;
+			  align-items: center;
+			}
+			h1{
+				color:white;
+			}
+			.center-text{
+				text-align:center;
+			}
+			#login-div{
+				width:86%;
+				border:1px solid rgb(36,45,51);
+				border-radius:8px;
+			}
+			#login-header{
+				background-color:rgb(45,56,64);
+				border-top-left-radius:8px;
+				border-top-right-radius:8px;
+				border-bottom:1px solid rgb(36,45,51);
+			}
+			p{
+				color:white;
+			}
+			#login-header-text{
+				padding-top:15px;
+			}
+			#login-form{
+				width:90%;
+				padding-top:15px;
+			}
+			.submit-btn{
+				background-color:rgb(90,175,238);
+				color:white;
+				width:48%;
+				display: inline-block;
+				margin-bottom:15px;
+			}
+			.form-input{
+				background-color:rgb(60,73,82);
+				border-color:rgb(36,45,51);
+				color:rgb(103,116,125);
+			}
+			a{
+				color:rgb(76,135,179);
+				text-decoration:none;
+			}
+			a:hover{
+				text-decoration:none;
+				cursor:pointer;
+			}
+			::-webkit-input-placeholder {
+			   color: rgb(103,116,125);
+			}
+
+			:-moz-placeholder { /* Firefox 18- */
+			   color: rgb(103,116,125);  
+			}
+
+			::-moz-placeholder {  /* Firefox 19+ */
+			   color: rgb(103,116,125);  
+			}
+
+			:-ms-input-placeholder {  
+			   color: rgb(103,116,125);  
+			}

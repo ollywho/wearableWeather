@@ -1,0 +1,11 @@
+id,name,type,layer,weight,waterproof,color,user
+1,Jeans,bottom,,long,0,blue,default
+2,T-shirt,top,base,short,0,white,default
+3,Chinos,bottom,,long,0,khaki,default
+4,Sweater,top,mid,mid,0,grey,default
+5,Dress,both,,light,0,red,default
+6,Shorts,bottom,,short,0,navy,default
+7,Button down shirt,top,base,long,0,blue,default
+8,Field jacket,top,outer,light,0,olive,default
+9,Peacoat,top,outer,heavy,0,black,default
+10,Rain jacket,top,outer,light,1,navy,default
